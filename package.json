@@ -1,0 +1,18 @@
+{
+  "name": "translation-tool",
+  "version": "1.0.0",
+  "description": "A Node.js tool for translating JSON strings and shortening keys using Google Translate API",
+  "main": "translate.js",
+  "scripts": {
+    "translate": "node translate.js",
+    "shorten": "node shortenKeys.js"
+  },
+  "keywords": ["translation", "google-translate", "i18n", "json", "localization"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/translate": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "fs-extra": "^11.1.0"
+  }
+}
